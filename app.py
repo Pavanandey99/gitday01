@@ -1,8 +1,9 @@
-# Simple Python program to greet the user
+# Modified Python program to greet the user and ask their favorite color
 
 # Ask for user input
 name = input("What's your name? ")
+color = input("What's your favorite color? ")
 
-# Print a greeting
-print(f"Hello, {name}! Nice to meet you.")
+# Print a personalized message
+print(f"Hello, {name}! {color} is a beautiful color!")
 
